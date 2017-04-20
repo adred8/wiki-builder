@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app = "portApp">
+
+  <head>
+    <title>Search top articles in wiki</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/col.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <h1>Wikipedia builder</h1>
+
+    <article>
+      <h1> Search for top wiki articles for a query input </h1>
+      <!-- <section id = "intro" >
+  			<h4> <b>Search for related articles here<b> </h4>
+  		</section> -->
+
+      <section class = "search-section">
+        <br>
+  			<form class="search-form">
+  				<input class = "search-query-input" type = "text" placeholder = "Type your query word">
+  				<button  class = "search-button" type = "button" class = "btn btn-primary">Submit</button>
+  			</form>
+    	</section>
+
+		  <section class = "results-section">
+        <br>
+  			<!-- <h1>The results appear here : </h1> -->
+  			<p></p>
+  			<br>
+  			<section id = "links"></section>
+    	</section>
+
+      <section class = "random-article-section">
+    			<br>
+          <a href = "https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <button class = "btn btn-cool" id = "randomSearchButton">
+              Click here for random article
+            </button>
+          </a>
+    	</section>
+
+  	</article>
+
+    <script type="text/javascript" src = "scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src = "scripts/angular.min.js"></script>
+    <script type="text/javascript" src = "scripts/main.js"></script>
+  </body>
+
+</html>
