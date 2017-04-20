@@ -13,7 +13,7 @@ $(document).ready(function(){
 			for (var j = 0; j < 10; ++j){
 				console.log(j);
 				console.log(wikicall[1][j]);
-				$("p").append("<a href = '" + wikicall[3][j] + "' >" + wikicall[1][j] + "</a><br>");
+				$("p").append("<a target = '_blank' href = '" + wikicall[3][j] + "' >" + wikicall[1][j] + "</a><br>");
 			}
 		});
 	});
